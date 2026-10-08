@@ -1,0 +1,13 @@
+{
+  "name": "website-template",
+  "version": "1.0.0",
+  "description": "A template for static websites hosted on Netlify",
+  "private": true,
+  "scripts": {
+    "start": "http-server . -c-1 -o",
+    "build": "echo \"No build step required for this static site\""
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
